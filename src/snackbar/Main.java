@@ -52,11 +52,21 @@ public class Main
 
 		System.out.println("Quantity of Pretzels is " + pretzel.getQuantity());
 		System.out.println();
-		
+
 		bob.buySnacks(pretzel.buySnack(3));
 
 		System.out.println("Bob cash on hand $" + bob.getCashOnHand());
 		System.out.println("Quantity of Pretzels is " + pretzel.getQuantity());
 		System.out.println();
+
+		System.out.println(chips);
+		System.out.println();
+		System.out.println(chocolateBar);
+		System.out.println();
+		System.out.println(pretzel);
+		System.out.println();
+		System.out.println(soda);
+		System.out.println();
+		System.out.println(water);
 	}
 }
